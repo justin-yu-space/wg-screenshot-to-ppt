@@ -1,0 +1,93 @@
+{
+  "width": 12192000,
+  "height": 6858000,
+  "font": "Microsoft YaHei",
+  "slides": [
+    {
+      "background": "#FFFFFF",
+      "objects": [
+        {
+          "type": "text",
+          "name": "标题",
+          "x": 952500,
+          "y": 457200,
+          "w": 10287000,
+          "h": 685800,
+          "text": "示例标题",
+          "size": 28,
+          "color": "#1F2937",
+          "bold": true,
+          "wrap": "square",
+          "align": "left"
+        },
+        {
+          "type": "text",
+          "name": "长文本换行",
+          "x": 952500,
+          "y": 1200000,
+          "w": 3000000,
+          "h": 600000,
+          "text": "这是一段用于验证自动换行是否生效的较长文本内容，应当被限制在文本框宽度之内。",
+          "size": 14,
+          "color": "#374151",
+          "wrap": "square"
+        },
+        {
+          "type": "shape",
+          "name": "卡片",
+          "x": 952500,
+          "y": 2000000,
+          "w": 3429000,
+          "h": 2286000,
+          "fill": "#E5E7EB",
+          "stroke": "#9CA3AF",
+          "radius": 152400
+        },
+        {
+          "type": "arrow",
+          "name": "流程线",
+          "x": 4572000,
+          "y": 2514600,
+          "w": 1828800,
+          "h": 0,
+          "color": "#2563EB",
+          "head": "arrow"
+        },
+        {
+          "type": "image",
+          "name": "图标",
+          "x": 6858000,
+          "y": 1371600,
+          "w": 1143000,
+          "h": 1143000,
+          "file": "icon.png"
+        }
+      ]
+    },
+    {
+      "background": "#F3F4F6",
+      "objects": [
+        {
+          "type": "text",
+          "name": "第二页文本",
+          "x": 500000,
+          "y": 500000,
+          "w": 5000000,
+          "h": 500000,
+          "text": "Second slide",
+          "size": 20,
+          "color": "#111827"
+        },
+        {
+          "type": "shape",
+          "name": "色块",
+          "x": 500000,
+          "y": 1500000,
+          "w": 2000000,
+          "h": 1000000,
+          "fill": "#10B981"
+        }
+      ]
+    }
+  ]
+}
